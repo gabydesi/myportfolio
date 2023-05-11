@@ -4,6 +4,12 @@ import Promanitas from "../assets/promanitas.png";
 import Dogs from "../assets/dogs.jpg";
 import Nomadeando from "../assets/nomadeando.jpg";
 
+// const {REACT_APP_NOMADEANDO,
+//   REACT_APP_DOGS_GITHUB,
+//   REACT_APP_VIDEOGAMES_API,
+//   REACT_APP_VIDEOGAMES_GITHUB,
+//   REACT_APP_PROMANITAS_GITHUB} = process.env
+
 function Work() {
   return (
     <div name="work" className="w-full md:h-screen text-[#a1bdd0] bg-[#18434e]">

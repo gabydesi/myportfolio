@@ -7,7 +7,7 @@ const About = () => {
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
             <p className="text-4xl font-bold inline border-b-4 border-[#d8ddea]">
-              About
+              About me
             </p>
           </div>
           <div></div>
@@ -22,13 +22,13 @@ const About = () => {
             <p>
               {" "}
               I am a junior full-stack web developer with experience in key
-              technologies such as JavaScript, ReactJS, CSS, and HTML. My
+              technologies such as JavaScript, ReactJS, CSS, and HTML. <br></br> My
               passion for continuous learning allows me to stay current with the
-              latest trends and advancements in web development. My previous
+              latest trends and advancements in web development. <br></br> My previous
               experience as a customer success specialist in web hosting has
               given me a unique perspective on development work. My focus on
               user experience ensures that I always keep the user's needs in
-              mind. I am a responsible, respectful person and work well in a
+              mind. <br></br> I am a responsible, respectful person and work well in a
               team. I am eager to gain new experiences and continue learning on
               innovative projects in the web development field. In short, my
               combination of technical skills and customer service experience
