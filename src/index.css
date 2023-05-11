@@ -2,21 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap")
-  
-@layer base {
-  body {
-    @apply font-[Raleway];
-  }
-  li {
-    @apply px-4;
-    @apply cursor-pointer;
-  }
-}
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 
 @layer base {
   body {
-    @apply font-[/Raleway/];
+    @apply font-[Raleway];
   }
   li {
     @apply px-4;
@@ -36,5 +26,5 @@
     to left,
     rgba(120, 148, 159, 1),
     hsla(207, 38%, 68%, 1)
-  )!important;
+  ) !important;
 }
