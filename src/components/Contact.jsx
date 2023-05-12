@@ -13,7 +13,7 @@ function Contact() {
   };
 
   return (
-    <div name='contact' className='w-full h-screen bg-[#18434e] flex justify-center items-center p-4'>
+    <div name='contact' className='w-full h-screen bg-[#18434e] flex justify-center items-center p-4 pt-20 '>
       {/* I used getform.io to send emails from my contact form */}
       <form
         ref={formRef}
@@ -22,7 +22,7 @@ function Contact() {
         className='flex flex-col max-w-[600px] w-full'
         onSubmit={handleSubmit}
       >
-        <div className='pb-8'>
+        <div className='pb-4'>
           <p className='text-4xl font-bold inline border-b-4 text-[#a1bdd0] border-[#d8ddea]'>Contact</p>
           <p className='text-[#a1bdd0] py-4'>Submit the form</p>
         </div>

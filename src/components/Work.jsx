@@ -1,6 +1,6 @@
 import React from "react";
 import Videogames from "../assets/videogames.png";
-import Promanitas from "../assets/promanitas.png";
+//import Promanitas from "../assets/promanitas.png";
 import Dogs from "../assets/dogs.jpg";
 import Nomadeando from "../assets/nomadeando.jpg";
 
@@ -100,12 +100,12 @@ function Work() {
             </div>
           </div>
           {/* Grid Item promanitas*/}
-          <div
+          {/* <div
             style={{ backgroundImage: `url(${Promanitas})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
+          > */}
             {/* hover effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            {/* <div className="opacity-0 group-hover:opacity-100">
               <span className="text 2xl font-bold text-[#d8ddea] tracking-wider">
                 Market place, React JS, JavaScript, PostgreSQL, MUI, Auth0, Cloudinary
               </span>
@@ -125,7 +125,7 @@ function Work() {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
