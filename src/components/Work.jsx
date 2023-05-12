@@ -52,7 +52,11 @@ function Work() {
                 SPA React JS, JavaScript, PostgreSQL, HTML, CSS
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a
+                  href="https://individual-project-dogs-indol.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#d8ddea] text-[#18434e] font-bold text-lg">
                     Demo
                   </button>
@@ -78,20 +82,24 @@ function Work() {
             {/* hover effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text 2xl font-bold text-[#d8ddea] tracking-wider">
-              SPA React JS, JavaScript, PostgreSQL, HTML, CSS
+                SPA React JS, JavaScript, PostgreSQL, HTML, CSS
               </span>
               <div className="pt-8 text-center">
-                <a href="https://individual-project-video-games.vercel.app/"
+                <a
+                  href="https://individual-project-video-games.vercel.app/"
                   target="_blank"
-                  rel="noopener noreferrer">
+                  rel="noopener noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#d8ddea] text-[#18434e] font-bold text-lg">
                     Demo
                   </button>
                 </a>
 
-                <a href="https://github.com/gabydesi/Individual_Project_VideoGames"
+                <a
+                  href="https://github.com/gabydesi/Individual_Project_VideoGames"
                   target="_blank"
-                  rel="noopener noreferrer">
+                  rel="noopener noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#d8ddea] text-[#18434e] font-bold text-lg">
                     Code
                   </button>
@@ -104,8 +112,8 @@ function Work() {
             style={{ backgroundImage: `url(${Promanitas})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           > */}
-            {/* hover effects */}
-            {/* <div className="opacity-0 group-hover:opacity-100">
+          {/* hover effects */}
+          {/* <div className="opacity-0 group-hover:opacity-100">
               <span className="text 2xl font-bold text-[#d8ddea] tracking-wider">
                 Market place, React JS, JavaScript, PostgreSQL, MUI, Auth0, Cloudinary
               </span>
