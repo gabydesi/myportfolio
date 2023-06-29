@@ -1,8 +1,16 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
+import {useTypingText} from "../hooks/typingEffect"
 
 const Home = () => {
+
+  const { word } = useTypingText(
+    ["I'm a Full Stack Developer"],
+    200,
+    5
+  );
+
   return (
     <div name="home" className="w-full h-screen bg-[#18434e]">
       {/* Container */}
@@ -12,7 +20,7 @@ const Home = () => {
           Gabriela Acevedo
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#a1bdd0]">
-          I'm a Full Stack Developer.
+          {word}
         </h2>
         <p className="text-[#a1bdd0] py-4 max-w-[700px]">
           I'm a junior full-stack web developer skilled in JavaScript, ReactJS,
