@@ -1,6 +1,6 @@
 import React from "react";
 import Videogames from "../assets/videogames.png";
-//import Promanitas from "../assets/promanitas.png";
+import Promanitas from "../assets/promanitas.png";
 import Dogs from "../assets/dogs.jpg";
 import Nomadeando from "../assets/nomadeando.jpg";
 
@@ -108,32 +108,39 @@ function Work() {
             </div>
           </div>
           {/* Grid Item promanitas*/}
-          {/* <div
+          <div
             style={{ backgroundImage: `url(${Promanitas})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          > */}
-          {/* hover effects */}
-          {/* <div className="opacity-0 group-hover:opacity-100">
+          >
+            {/* hover effects */}
+            <div className="opacity-0 group-hover:opacity-100">
               <span className="text 2xl font-bold text-[#d8ddea] tracking-wider">
-                Market place, React JS, JavaScript, PostgreSQL, MUI, Auth0, Cloudinary
+                Market place, React JS, JavaScript, PostgreSQL, MUI, Auth0,
+                Cloudinary
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a
+                  href="https://pro-manitas-client.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#d8ddea] text-[#18434e] font-bold text-lg">
                     Demo
                   </button>
                 </a>
 
-                <a href="https://github.com/ProManitas"
+                <a
+                  href="https://github.com/ProManitas"
                   target="_blank"
-                  rel="noopener noreferrer">
+                  rel="noopener noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#d8ddea] text-[#18434e] font-bold text-lg">
                     Code
                   </button>
                 </a>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
