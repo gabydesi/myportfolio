@@ -13,13 +13,13 @@ function Contact() {
   };
 
   return (
-    <div name='contact' className='w-full h-screen bg-[#18434e] flex justify-center items-center p-4 pt-20 '>
+    <div name='contact' className='w-full md:h-screen bg-[#18434e] flex justify-center items-center p-4 pt-80 '>
       {/* I used getform.io to send emails from my contact form */}
       <form
         ref={formRef}
         method="POST"
         action={REACT_APP_GET_FORM_IO}
-        className='flex flex-col max-w-[600px] w-full'
+        className='flex flex-col max-w-[600px] w-full pt-20'
         onSubmit={handleSubmit}
       >
         <div className='pb-4'>

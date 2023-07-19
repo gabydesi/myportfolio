@@ -3,10 +3,14 @@ import Videogames from "../assets/videogames.png";
 import Promanitas from "../assets/promanitas.png";
 import Dogs from "../assets/dogs.jpg";
 import Nomadeando from "../assets/nomadeando.jpg";
+import Oddi from "../assets/oddi.jpg";
 
 function Work() {
   return (
-    <div name="work" className="w-full md:h-screen text-[#a1bdd0] bg-[#18434e] py-60">
+    <div
+      name="work"
+      className="w-full md:h-screen text-[#a1bdd0] bg-[#18434e] pt-80"
+    >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-[#a1bdd0] border-[#d8ddea] ">
@@ -47,9 +51,10 @@ function Work() {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 py-1 px-4">
               <span className="text 2xl font-bold text-[#d8ddea] tracking-wider">
-                SPA React JS, JavaScript, PostgreSQL, HTML, CSS
+                Single page aplication <br /> <br /> ReactJS, JavaScript,
+                NodeJS, Express, PostgreSQL, HTML, CSS
               </span>
               <div className="pt-8 text-center">
                 <a
@@ -80,9 +85,10 @@ function Work() {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 py-1 px-4">
               <span className="text 2xl font-bold text-[#d8ddea] tracking-wider">
-                SPA React JS, JavaScript, PostgreSQL, HTML, CSS
+                Single page aplication <br /> <br /> ReactJS, JavaScript,
+                NodeJS, Express, PostgreSQL, HTML, CSS
               </span>
               <div className="pt-8 text-center">
                 <a
@@ -113,10 +119,11 @@ function Work() {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* hover effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 py-1 px-4">
               <span className="text 2xl font-bold text-[#d8ddea] tracking-wider">
-                Market place, React JS, JavaScript, PostgreSQL, MUI, Auth0,
-                Cloudinary
+                Job market place <br />
+                <br /> React JS, JavaScript, NodeJS, Express, PostgreSQL, MUI,
+                AuthO, Cloudinary
               </span>
               <div className="pt-8 text-center">
                 <a
@@ -136,6 +143,39 @@ function Work() {
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#d8ddea] text-[#18434e] font-bold text-lg">
                     Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* Grid Item ODDI*/}
+          <div
+            style={{ backgroundImage: `url(${Oddi})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* hover effects */}
+            <div className="opacity-0 group-hover:opacity-100 py-1 px-4">
+              <span className="text 2xl font-bold text-[#d8ddea] tracking-wider">
+                Website <br />
+                <br /> ReactJS, Tailwind CSS
+              </span>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://oddi.es/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <a
+                    href="https://github.com/Dentmedia-oddi/client_oddi"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#d8ddea] text-[#18434e] font-bold text-lg">
+                      Code
+                    </button>
+                  </a>
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#d8ddea] text-[#18434e] font-bold text-lg">
+                    Demo
                   </button>
                 </a>
               </div>
