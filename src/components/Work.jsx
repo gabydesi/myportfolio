@@ -58,16 +58,6 @@ function Work() {
               </span>
               <div className="pt-8 text-center">
                 <a
-                  href="https://individual-project-dogs-indol.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#d8ddea] text-[#18434e] font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-
-                <a
                   href="https://github.com/gabydesi/Individual_Project_Dogs"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -92,22 +82,22 @@ function Work() {
               </span>
               <div className="pt-8 text-center">
                 <a
-                  href="https://individual-project-video-games.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#d8ddea] text-[#18434e] font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-
-                <a
                   href="https://github.com/gabydesi/Individual_Project_VideoGames"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#d8ddea] text-[#18434e] font-bold text-lg">
                     Code
+                  </button>
+                </a>
+
+                <a
+                  href="https://individual-project-video-games.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#d8ddea] text-[#18434e] font-bold text-lg">
+                    Demo
                   </button>
                 </a>
               </div>
@@ -126,16 +116,6 @@ function Work() {
                 AuthO, Cloudinary
               </span>
               <div className="pt-8 text-center">
-                <a
-                  href="https://pro-manitas-client.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#d8ddea] text-[#18434e] font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-
                 <a
                   href="https://github.com/ProManitas"
                   target="_blank"
