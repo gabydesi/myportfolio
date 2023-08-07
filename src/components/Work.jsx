@@ -17,6 +17,20 @@ function Work() {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1, 
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
 
   const workItems = [
@@ -58,7 +72,7 @@ function Work() {
   return (
     <div
       name="work"
-      className="w-full md:h-screen text-[#a1bdd0] bg-[#18434e] pt-80"
+      className="w-full h-screen md:h-screen text-[#a1bdd0] bg-[#18434e] pt-80"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -68,13 +82,13 @@ function Work() {
           <p className="py-6">Check out some of my recent work:</p>
         </div>
 
-        <div className="w-[60%] h-[60%] mx-auto">
+        <div className="w-full mx-auto max-w-[600px]">
           {/* Carrusel */}
           <Slider {...settings}>
             {workItems.map((item, index) => (
               <div
                 key={index}
-                className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
+                className=" group container rounded-md flex justify-center items-center mx-auto "
               >
                 {/* Image container with hover effects */}
                 <div className="group relative">
@@ -85,11 +99,11 @@ function Work() {
                     className="rounded-md"
                   />
                   {/* Hover effects */}
-                  <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/80 opacity-0 group-hover:opacity-100 rounded-md">
-                    <span className="text-2xl font-bold text-[#d8ddea] tracking-wider">
+                  <div className="w-full mx-auto max-w-[600px] absolute inset-0 flex flex-col items-center justify-center bg-black/80 opacity-0 group-hover:opacity-100 rounded-md">
+                    <span className="md:text-2xl sm:text-xl text-md font-bold text-[#d8ddea] tracking-wider">
                       {item.title}
                     </span>
-                    <span className="text-sm text-[#d8ddea] tracking-wider">
+                    <span className="text-sm md:text-sm sm:text-sm text-[#d8ddea] tracking-wider">
                       {item.description}
                     </span>
                     <div className="pt-8 text-center">
@@ -98,7 +112,7 @@ function Work() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#d8ddea] text-[#18434e] font-bold text-lg">
+                        <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#d8ddea] text-[#18434e] font-bold text-sm">
                           Demo
                         </button>
                       </a>
