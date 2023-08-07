@@ -13,7 +13,7 @@ function Contact() {
   };
 
   return (
-    <div name='contact' className='w-full md:h-screen bg-[#18434e] flex justify-center items-center p-4 pt-80 '>
+    <div name='contact' className='w-full md:h-screen bg-[#18434e] flex justify-center items-center p-4 pt-40 '>
       {/* I used getform.io to send emails from my contact form */}
       <form
         ref={formRef}

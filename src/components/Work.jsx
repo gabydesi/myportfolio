@@ -72,7 +72,7 @@ function Work() {
   return (
     <div
       name="work"
-      className="w-full h-screen md:h-screen text-[#a1bdd0] bg-[#18434e] pt-80"
+      className="w-full h-screen md:h-screen text-[#a1bdd0] bg-[#18434e] pt-40"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -82,7 +82,7 @@ function Work() {
           <p className="py-6">Check out some of my recent work:</p>
         </div>
 
-        <div className="w-full mx-auto max-w-[600px]">
+        <div className="w-full mx-auto max-w-[600px] justify-center">
           {/* Carrusel */}
           <Slider {...settings}>
             {workItems.map((item, index) => (
