@@ -75,14 +75,14 @@ function Work() {
       className="w-full h-screen md:h-screen text-[#a1bdd0] bg-[#18434e] pt-40"
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+        <div className="pb-2">
           <p className="text-4xl font-bold inline border-b-4 text-[#a1bdd0] border-[#d8ddea] ">
             Work
           </p>
           <p className="py-6">Check out some of my recent work:</p>
         </div>
 
-        <div className="w-full mx-auto max-w-[600px] justify-center">
+        <div className="w-full mx-auto max-w-[600px] mt-[100px] md:mt-[80px] z-0">
           {/* Carrusel */}
           <Slider {...settings}>
             {workItems.map((item, index) => (
